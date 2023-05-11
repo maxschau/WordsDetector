@@ -1,0 +1,29 @@
+# Virtual environment
+bin/
+include/
+lib/
+
+# Ignore pipenv and poetry lock files if you're using them
+Pipfile.lock
+poetry.lock
+
+# Python compiled files
+*.pyc
+__pycache__/
+
+# macOS-specific files to ignore
+.DS_Store
+
+# PyCharm files
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# Visual Studio Code files
+.vscode/
+.settings/
+*.code-workspace
+
+# Editors' temporary files
+*~
